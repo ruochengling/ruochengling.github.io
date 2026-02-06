@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GG扑克 - 专业在线德扑游戏平台</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <!-- 顶部导航 -->
+    <header class="header">
+      <nav class="nav-container">
+        <div class="logo-section">
+          <img
+            src="./assets/images/logo1.png"
+            alt="GG扑克"
+            class="logo logo-img"
+          />
+          <img
+            src="./assets/images/logo2.png"
+            alt="WSOP"
+            class="wsop-badge logo-img"
+          />
+        </div>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#brand">品牌赛事</a></li>
+          <li><a href="#promo">促销活动</a></li>
+          <li><a href="#download">游戏下载</a></li>
+          <li><a href="#categories">游戏类别</a></li>
+          <li><a href="#tournaments">锦标赛</a></li>
+          <li><a href="#team">战队</a></li>
+          <li><a href="#vip">VIP回馈</a></li>
+          <li><a href="#mall">GG商城</a></li>
+        </ul>
+
+        <div class="nav-right">
+          <img
+            src="./assets/images/nav-right.jpg"
+            alt="WSOP"
+            class="wsop-badge"
+          />
+        </div>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="菜单">
+          ☰
+        </button>
+      </nav>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+      <!------>
+      <div class="banner-track">
+        <div class="slide slide1">
+          <img src="./assets/images/banner1.jpg" />
+        </div>
+        <div class="slide slide2">
+          <img src="./assets/images/banner2.jpg" />
+        </div>
+        <div class="slide slide3">
+          <img src="./assets/images/banner3.jpg" />
+        </div>
+        <div class="slide slide4">
+          <img src="./assets/images/banner4.jpg" />
+        </div>
+        <div class="slide slide1">
+          <img src="./assets/images/banner1.jpg" />
+        </div>
+      </div>
+
+      <div class="banner-track-mobile">
+        <div class="slide slide1">
+          <img src="./assets/images/banner10.jpg" />
+        </div>
+        <div class="slide slide2">
+          <img src="./assets/images/banner20.jpg" />
+        </div>
+        <div class="slide slide3">
+          <img src="./assets/images/banner30.jpg" />
+        </div>
+        <div class="slide slide4">
+          <img src="./assets/images/banner40.jpg" />
+        </div>
+        <div class="slide slide1">
+          <img src="./assets/images/banner50.jpg" />
+        </div>
+      </div>
+
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="app-logo-container">
+              <img src="assets/images/logo3.png" alt="GG扑克 App Logo" class="app-logo">
+          </div>
+          <h2 class="hero-title">随时随刻 体验德扑</h1>
+          <p class="hero-subtitle">
+            GG扑克是GGpoker中文官方版，<br />
+            为亚洲用户量身定制最专业、最值得信赖的在线竞技<br />
+            扑克游戏平台
+          </p>
+          <a href="todownload" class="invite-link cta-button" >立即下载</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 最新消息滚动条 -->
+    <div class="news-ticker">
+      <span class="news-label">最新消息</span>
+      <div class="news-content">
+        <div class="news-text">
+          月度锦标赛总奖金池超千万，等你来战！🎉 新用户注册即送1000元大礼包 🎁
+          GG扑克平台活跃用户数突破150万！
+        </div>
+      </div>
+    </div>
+
+    <!-- 内容区域 -->
+    <section class="content-section">
+      <div class="section-tabs">
+        <a href="#" class="tab active">本月推荐</a>
+        <span style="color: #ccc">/</span>
+        <a href="#" class="tab">国际活动</a>
+        <span style="color: #ccc">/</span>
+        <a href="#" class="tab">功能特色</a>
+      </div>
+
+      <div class="cards-grid">
+        <div class="card">
+          <img class="card-image" src="./assets/images/banner11.jpg"/>
+        </div>
+        <div class="card">
+          <img class="card-image"  src="./assets/images/banner22.jpg"/>
+        </div>
+        <div class="card">
+          <img class="card-image"  src="./assets/images/banner33.jpg"/>
+        </div>
+        <div class="card">
+          <img class="card-image"  src="./assets/images/banner44.jpg"/>
+        </div>
+        <div class="card">
+          <img class="card-image"  src="./assets/images/banner55.jpg"/>
+        </div>
+        <div class="card">
+          <img class="card-image"  src="./assets/images/banner66.jpg"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- 锦标赛区域 -->
+    <section class="tournament-section">
+      <div class="tournament-header">
+        <div class="trophy-icon">
+          <img class="tournament-icon" src="./assets/images/trophy.png"/>
+        </div>
+        <h2 class="section-title">激动人心的锦标赛</h2>
+      </div>
+
+      <div class="tournament-carousel">
+        <button class="carousel-btn prev" onclick="scrollCarousel(-1)">
+          ‹
+        </button>
+        <div class="carousel-container" id="carouselContainer">
+          <div class="tournament-card">
+            <div class="tournament-card">
+              <img
+                src="./assets/images/tournament1.jpg"
+                alt="锦标赛美元"
+                class="tournament-image"
+              />
+            </div>
+          </div>
+          <div class="tournament-card">
+            <img
+            src="./assets/images/tournament2.jpg"
+              alt="GG大师赛"
+              class="tournament-image"
+            />
+          </div>
+          <div class="tournament-card">
+            <img
+            src="./assets/images/tournament3.jpg"
+              alt="GG百万赛2024"
+              class="tournament-image"
+            />
+          </div>
+          <div class="tournament-card">
+            <img
+              src="./assets/images/tournament4.jpg"
+              alt="豪客赛"
+              class="tournament-image"
+            />
+          </div>
+          <div class="tournament-card">
+            <img
+            src="./assets/images/tournament5.jpg"
+              alt="周末特别赛"
+              class="tournament-image"
+            />
+          </div>
+          <div class="tournament-card">
+            <img
+            src="./assets/images/tournament6.jpg"
+              alt="快速锦标赛"
+              class="tournament-image"
+            />
+          </div>
+          <div class="tournament-card">
+            <img
+            src="./assets/images/tournament7.jpg"
+              alt="快速锦标赛"
+              class="tournament-image"
+            />
+          </div>
+        </div>
+        <button class="carousel-btn next" onclick="scrollCarousel(1)">›</button>
+      </div>
+    </section>
+
+    <!-- 广告横幅 -->
+    <section class="ad-banner">
+      <div class="ad-content">
+        <img
+          src="./assets/images/playpoker2.webp"
+          alt="GG扑克广告"
+          class="ad-image"
+        />
+        <h2 class="ad-title">德扑游戏就选GG扑克</h2>
+        <p class="ad-subtitle">Play poker whenever and wherever with GGPUKE</p>
+        <a href="#download" class="invite-link cta-button">立即下载</a>
+        <p class="ad-note">手机 / 电脑无限制</p>
+      </div>
+    </section>
+
+    <!-- 文章区域 -->
+    <section class="article-section">
+      <div class="article-container">
+        <h1 class="article-title">GG扑克：值得信赖的在线德扑游戏平台</h1>
+
+        <div class="article-meta">
+          <span>📅 2025年1月15日</span>
+          <span>✍️ GG扑克运营团队</span>
+        </div>
+
+        <div class="article-content">
+          <p>
+            GG扑克作为GGpoker的中文官方版本，致力于为亚洲玩家构建最专业、最值得信赖的在线竞技扑克环境。平台提供多样化的游戏选择，包括现金桌、锦标赛、单挑等多种游戏形式。
+          </p>
+
+          <h2>平台特色</h2>
+          <p>
+            GG扑克建立了世界一流的安全保护机制，使用银行级别的加密技术，全方位保护每位玩家的账户安全和资金安全。平台还配备了专业的反作弊系统，确保每场游戏都公平公正。
+          </p>
+
+          <p>
+            平台全面支持多终端游戏，手机和电脑都能完美适配。我们持续改进游戏性能，确保玩家在各种设备上都能获得卓越的游戏体验。
+          </p>
+
+          <h2>丰富的游戏选择</h2>
+          <p>
+            在GG扑克平台，玩家可以参与各种规模的锦标赛，从常规小型赛事到大型百万奖金赛，应有尽有。平台还会定期推出特别活动，为玩家送上丰厚奖励和意外惊喜。
+          </p>
+
+          <p>
+            无论您是扑克新手还是资深玩家，GG扑克都能为您提供合适的游戏空间。平台提供全面的新手指导，帮助新玩家快速掌握技巧，同时也为高水平玩家准备了高额桌和职业级锦标赛。
+          </p>
+        </div>
+
+        <div class="article-tags">
+          <span class="tag">GG扑克</span>
+          <span class="tag">在线德扑游戏</span>
+          <span class="tag">GGpoker</span>
+          <span class="tag">德扑游戏</span>
+          <span class="tag">扑克游戏</span>
+          <span class="tag">在线扑克平台</span>
+          <span class="tag">锦标赛</span>
+          <span class="tag">现金桌</span>
+          <span class="tag">扑克下载</span>
+          <span class="tag">手机扑克</span>
+          <span class="tag">电脑扑克</span>
+          <span class="tag">扑克比赛</span>
+          <span class="tag">百万大奖赛</span>
+          <span class="tag">豪客赛</span>
+          <span class="tag">安全扑克</span>
+          <span class="tag">公平竞技</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <img
+              src="./assets/images/logo1.png"
+              alt="GG扑克"
+              class="footer-logo"
+            />
+            <p class="footer-description">
+              GG扑克是GGpoker官方中文版本，亚洲地区最受欢迎的在线德扑游戏平台。致力于提供安全可靠、公平公正的扑克游戏服务，支持现金桌、锦标赛、单挑等多种玩法。
+            </p>
+          </div>
+
+          <div class="footer-column">
+            <h4>关于GG扑克</h4>
+            <ul>
+              <li><a href="#">公司介绍</a></li>
+              <li><a href="#">隐私政策</a></li>
+              <li><a href="#">服务条款</a></li>
+              <li><a href="#">责任博彩</a></li>
+              <li><a href="#">安全保障</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>帮助中心</h4>
+            <ul>
+              <li><a href="#">常见问题</a></li>
+              <li><a href="#">下载指南</a></li>
+              <li><a href="#">游戏规则</a></li>
+              <li><a href="#">支付帮助</a></li>
+              <li><a href="#">注册教程</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>游戏类型</h4>
+            <ul>
+              <li><a href="#">现金桌</a></li>
+              <li><a href="#">锦标赛</a></li>
+              <li><a href="#">单挑德扑</a></li>
+              <li><a href="#">百万大奖赛</a></li>
+              <li><a href="#">豪客赛</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            © 2025 GG扑克(GGpoker中文版) - 专业在线德扑游戏平台. 保留所有权利. |
+            请理性游戏，适度娱乐 | 18岁以上方可参与
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="app-download-floating" style=" position: fixed; bottom: 10px; left: 10px; right: 10px; z-index: 1000; border-radius: 12px; opacity: 1; transform: translateY(0px); transition: opacity 0.3s, transform 0.3s; padding: 12px 15px; align-items: center; justify-content: space-between; max-width: 360px; margin: 0px auto; background-color: rgb(255, 255, 255); border-color: rgb(234, 236, 239); color: rgb(30, 35, 41); box-shadow: rgba(233, 7, 7, 0.15) 0px 2px 12px;"><div class="app-download-floating-logo" style="display: flex; align-items: center; gap: 10px; flex: 1 1 0%;"><img src="assets/images/favicon.ico" alt="GGPoker-中文版" style="width: 40px; height: 40px; border-radius: 10px; object-fit: cover;"><div class="app-download-floating-info" style="display: flex; flex-direction: column;"><div class="app-download-floating-title" style="font-weight: 600; font-size: 14px; margin-bottom: 2px; color: rgb(30, 35, 41);">GGPoker-中文版</div><div class="app-download-floating-desc" style="font-size: 11px; color: rgb(112, 122, 138);">★  ★  ★  ★  ★<span class="highlight" style="color: rgb(240, 185, 11); font-weight: 600;">安全可靠</span>公平公正</div></div></div><a href="javascript:void(0)" class="app-download-floating-btn invite-link" style="border-radius: 8px; padding: 8px 15px; font-size: 14px; font-weight: 500; cursor: pointer; text-decoration: none; display: inline-block; white-space: nowrap; transition: 0.2s; background-color: rgb(210, 35, 44); color: rgb(255, 255, 255);">立即下载</a></div>
+
+    <script>
+      // 移动端菜单切换
+      const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+      const navMenu = document.getElementById("navMenu");
+
+      mobileMenuBtn.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+        mobileMenuBtn.textContent = navMenu.classList.contains("active")
+          ? "✕"
+          : "☰";
+      });
+
+      // 轮播图滚动
+      function scrollCarousel(direction) {
+        const container = document.getElementById("carouselContainer");
+        const scrollAmount = 320;
+        container.scrollBy({
+          left: direction * scrollAmount,
+          behavior: "smooth",
+        });
+      }
+
+      // 自动轮播
+      let autoScrollInterval = setInterval(() => {
+        const container = document.getElementById("carouselContainer");
+        if (
+          container.scrollLeft >=
+          container.scrollWidth - container.clientWidth - 10
+        ) {
+          container.scrollTo({ left: 0, behavior: "smooth" });
+        } else {
+          scrollCarousel(1);
+        }
+      }, 3000);
+
+      // 鼠标悬停时暂停自动轮播
+      const carouselContainer = document.getElementById("carouselContainer");
+      carouselContainer.addEventListener("mouseenter", () => {
+        clearInterval(autoScrollInterval);
+      });
+
+      carouselContainer.addEventListener("mouseleave", () => {
+        autoScrollInterval = setInterval(() => {
+          const container = document.getElementById("carouselContainer");
+          if (
+            container.scrollLeft >=
+            container.scrollWidth - container.clientWidth - 10
+          ) {
+            container.scrollTo({ left: 0, behavior: "smooth" });
+          } else {
+            scrollCarousel(1);
+          }
+        }, 3000);
+      });
+
+      // 平滑滚动到锚点
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+            // 关闭移动端菜单
+            navMenu.classList.remove("active");
+            mobileMenuBtn.textContent = "☰";
+          }
+        });
+      });
+
+       
+      document.addEventListener('click', function(e) {
+        // 检查点击的元素是否是 .invite-link 或其子元素
+        const inviteBtn = e.target.closest('.invite-link');
+        
+        if (inviteBtn && inviteBtn.tagName === 'A') {
+          e.preventDefault();           
+          window.location.href="http://ggpuke888.com/Fish813"
+        }
+      });
+    </script>
+  </body>
+</html>
